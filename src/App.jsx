@@ -8,6 +8,7 @@ function App() {
   return (
     <div className="App">
       <header>
+        
        <ul className="navbar">
            <li>
             <img src={logoNavbar} alt="imagen" className="logo" />
@@ -46,9 +47,16 @@ function App() {
        </section>
        <section></section>
    </main>
-   <footer></footer> 
+   <footer>
+       <CardRazasPerros />
+    </footer> 
     </div>
   );
+}
+
+function CardRazasPerros(){
+    return<div>Hola soy un componente</div>
+    
 }
 
 export default App;
